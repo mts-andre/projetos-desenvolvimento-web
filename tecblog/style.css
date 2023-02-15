@@ -1,0 +1,145 @@
+/*
+    Zerando medidas de espaçamentos internos e externos;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Aplicando formatações ao corpo da página;
+*/
+
+body {
+    font: 1em "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+    Aplicando formatações na área do cabelho;
+*/
+
+#area-cabecalho {
+    background-color: #f6b700;
+    padding: 18px;
+    text-align: center;
+}
+
+/*
+    Aplicando formatações na área do logo Tecblog;
+*/
+
+#area-logo span {
+    color: #fff;
+}
+
+#area-logo h1 {
+    color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+#area-logo, #barra-menu {
+    padding: 10px;
+}
+
+/*
+    Aplicando formatações na área de menu;
+*/
+
+#barra-menu a:visited, #barra-menu a:link {
+	padding: 8px 12px;
+	color: #FFF;
+}
+
+#barra-menu a:hover {
+    color: #f6b700;
+    background-color: #fff;
+}
+
+a {
+    color: #f6b700;
+    text-decoration: none;
+}
+
+/*
+    Aplicando formatação na área de conteúdo;
+*/
+
+#container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/*
+    Aplicando formatação na área principal do conteúdo;
+*/
+
+#area-principal {
+    width: 660px;
+    float: left;
+}
+
+.postagem-area-principal {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.postagem-area-principal h2 {
+    color: #f6b700;
+}
+
+.data-postagem-area-principal {
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+    display: block;
+}
+
+.imagens-area-principal {
+    width: 620px;
+}
+
+/*
+    Aplicando formatação na área lateral do conteúdo;
+*/
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-area-lateral {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.conteudo-area-lateral h3 {
+    background-color: #CCC;
+	color: #565656;
+	padding: 5px;
+}
+.postagem-area-lateral {
+    font-size: 0.8em;
+    border-bottom: 1px dotted #CCC;
+    padding: 5px;
+}
+
+.last {
+    border-bottom: none;
+}
+
+/*
+    Aplicando formatação no rodapé da página;
+*/
+
+#rodape {
+    clear: both;
+    padding: 15px;
+    background-color: #CCC;
+    text-align: center;
+}
