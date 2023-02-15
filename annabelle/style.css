@@ -1,0 +1,70 @@
+/*
+    Aplicando formatações no corpo da página;
+*/
+
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #d2d2c1 url('imagens/fundo.png');
+}
+
+/*
+    Aplicando formatações no conteiner, onde será localizado todo o conteúdo do site;
+*/
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*
+    Aplicando formatações na barra de menu, como:
+    - Cor da fonte;
+    - Cor de fundo de tela;
+    - Espaçamento interno;
+    - Estilização de fontes;
+    - Estilização de links;
+*/
+
+#barra-menu {
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+
+#barra-menu a {
+    color: #4b566a;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*
+    Aplicando formatações na área de conteúdo;
+*/
+
+.conteudo {
+    background-color: #e8e8d9;
+    padding: 15px;
+}
+
+h1 {
+    color: #828271;
+	font-size: 1.2em; 
+}
+
+/*
+    Aplicando formatação de imagens;
+*/
+
+.img-site-publi {
+    border: 10px solid #c5c5b2;
+}
+
+/*
+    Aplicando formatação no rodapé da página;
+*/
+
+#rodape {
+    text-align: center;
+}
+
