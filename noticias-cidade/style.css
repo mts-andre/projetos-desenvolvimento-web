@@ -1,0 +1,280 @@
+/*
+    Zerando espaçamentos internos e externos da página;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Aplicando corpo da página, como:
+    - Fontes;
+    - Cor e imagens de fundo;
+
+    E outras formatações gerais da página:
+    - Formatação de links;
+    - Formatação de listas;
+*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url('imagens/fundo.png') repeat-x;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #b10333;
+    text-decoration: none;
+}
+
+/*
+    Aplicando formatação no container da página, onde será localizado todo o conteúdo da página;
+*/
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/*
+    Aplicando formatação na área de cabeçalho, como:
+    - Medidas;
+    - Cor e imagens de fundo;
+    - Espaçamentos;
+*/
+
+#area-cabecalho {
+    height: 150px;
+    background: url('imagens/detalhe-topo.png') no-repeat right center;
+    padding-top: 25px;
+}
+
+#logo-area-cabecalho {
+    width: 152px;
+    height: 66px;
+    background: url('imagens/logo.png') left center;
+}
+
+ul#menu-area-cabecalho {
+    margin-top: 25px;
+    float: left;
+    background-color: #b10333;
+}
+
+ul#menu-area-cabecalho li {
+    float: left;
+}
+
+ul#menu-area-cabecalho li a {
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    display: block;
+    color: #fff;
+    background: url('imagens/divisor.png') no-repeat left center;
+}
+
+ul#menu-area-cabecalho li a:hover {
+    color: #69001d;
+}
+
+/*
+    Marcando página atual pela barra de navegação;
+*/
+
+#home #area-cabecalho .home a,
+#brasil #area-cabecalho .brasil a,
+#fotos #area-cabecalho .fotos a {
+    color: #fff;
+    background-color: #d3003e;
+    cursor: text;
+}
+
+/*
+    Aplicando formatação na área de conteúdo e caixas onde serão localizados informações;
+*/
+
+#area-conteudo {
+    margin-top: 60px;
+}
+
+.caixa-area-conteudo {
+    margin: 10px 0;
+    background: #f3f3f3 url('imagens/fundo-caixa.png');
+    padding: 5px;
+}
+
+.conteudo-area-conteudo {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/*
+    Aplicando formatação na barra de navegação da área de cabecalho;
+*/
+
+ul.lista-menu-area-conteudo li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+ul.lista-menu-area-conteudo li a img {
+    float: left;
+    margin: 5px;
+}
+
+ul.lista-menu-area-conteudo li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+ul.lista-menu-area-conteudo li a h3 {
+    font-size: 0.8em;
+    padding: 4px;
+    color: #294c71;
+    background: none;
+    text-transform: uppercase;
+}
+
+ul.lista-menu-area-conteudo li:hover {
+    background-color: #CCC;
+    font-weight: bold;
+}
+
+/*
+    Formatando classes de títulos, subtítulos e imagens, todas elas serão aplicadas em cada divisão de conteúdo;
+*/
+
+.titulos-area-conteudo {
+    color: #fff;
+    padding: 5px;
+    background-color: #294c71;
+}
+
+.subtitulos-area-conteudo {
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #b10333;
+    display: inline;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.img-area-conteudo {
+    width: 98%;
+    border: 1px solid #dfdfdf;
+    margin: 1px;
+}
+
+/*
+    Formatando áreas de conteúdo:
+    - Principal;
+    - Secundário;
+    - Lateral;
+*/
+
+#principal-area-conteudo {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario-area-conteudo {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral-area-conteudo {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/*
+    Formatando barra de navegação da área lateral;
+*/
+
+ul#lateral-area-conteudo ul {
+    float: left;
+}
+
+ul#lateral-area-conteudo li {
+    float: left;
+}
+
+#lateral-area-conteudo a {
+    font-size: 0.9em;
+    display: block;
+    padding: 3px;
+    line-height: 30px;
+    color: #000;
+    border: 1px solid #f3f3f3;
+}
+
+#lateral-area-conteudo li a:hover {
+    background: #f9f9f9 url('imagens/marcador.png') no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 25px;
+}
+
+#lateral-area-conteudo input[type="email"] {
+    padding: 0.5em 0.2em;
+    width: 155px;
+}
+
+#lateral-area-conteudo input[type="submit"] {
+    padding: 10px;
+    background-color: #b10333;
+    color: #fff;
+}
+
+#lateral-area-conteudo input[type="submit"]:hover {
+    border: 1px solid #fd5282;
+    font-weight: bold;
+
+}
+
+/*
+    Formatando rodapé da página;
+*/
+
+#container-rodape {
+    background-color: #294c71;
+    clear: both;
+    padding: 20px;
+}
+
+#rodape {
+    color: #fff;
+    width: 720px;
+    margin: 0 auto;
+}
+
+
+/*
+    Ajustando variação de layouts na navegação do site
+*/
+
+#layout-duas-colunas #principal-area-conteudo {
+    width: 550px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#layout-duas-colunas #lateral-area-conteudo {
+    width: 180px;
+    float: left;
+}
+
+#layout-uma-coluna #principal-area-conteudo {
+    width: 750px;
+    float: left;
+    margin: auto;
+}
