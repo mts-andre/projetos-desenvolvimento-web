@@ -12,6 +12,9 @@
         
         <!-- CSS Style-->
         <link rel="stylesheet" type="text/css" href="css/styles/style.css">
+
+        <!-- Font Awesome-->
+        <script src="https://kit.fontawesome.com/442ac4d6eb.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -44,14 +47,57 @@
                     </div>
                 </div>
             </nav>
-            <!--criando um section para informações dentro do header-->
-            <section id="info">
-                <!--definindo um container onde será alinhado o conteúdo do header-->
-                <div class="container">
-                    
-                </div>
-            </section>
         </header>
+        <!--criando um section para informações-->
+        <!--essa section terá um id para configuração de cores de fundo e cores de texto pelo CSS-->
+        <section id="info">
+            <!--definindo um container onde será alinhado o conteúdo-->
+            <div class="container">
+                <!--criando uma linha grip-->
+                <div class="row">
+                    <!--separando o conteúdo dessa section em duas partes (6-6)-->
+                    <div class="col-md-6 d-flex">
+                        <!--centralizando o conteúdo verticalmente-->
+                       <div class="align-self-center">
+                        <!--formatando o conteudo-->
+                        <h1 class="display-4">Suas contas, descomplicadas</h1>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                        </p>
+                        <!--criando um formulário, com margem vertical de valor 4-->
+                        <form class="my-4">
+                            <!--criando um grupo de inputs-->
+                            <div class="input-group input-group-lg">
+                                <!--o primeiro input do tipo e-mail-->
+                                <input type="email" placeholder="Seu e-mail" class="form-control">
+                                <!--formatando um botão que ficará após o input-->
+                                <div class="input-group-append">
+                                   <button type="button" class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!--criando um parágrafo para informações de compatibilidade-->
+                        <p>
+                            <!--destacando o texto com lead-->
+                            <span class="lead">Disponível para</span>
+                            <!--adicionando ícones disponibilizados pelo Font Awesome-->
+                            <a href="#" class="btn btn-outline-light">
+                                <i class="fa-brands fa-android fa-lg"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-light">
+                                <i class="fa-brands fa-apple fa-lg"></i>
+                            </a>
+                        </p>
+                       </div>
+                    </div>
+                    <!--adicionando uma imagem, essa imagem terá um display:block; para quando os dispositivos terem tamanho maior ou igual a medium, caso menor, a imagem terá um display:none-->
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="img/capa-mulher.png">
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
